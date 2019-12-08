@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency('faraday')
-  spec.add_dependency('googleauth', '~> 0.9.0')
+  spec.add_dependency('googleauth')
   spec.add_dependency('rubyzip', '>= 1.3.0', '<2.0.0')
   spec.add_dependency('plist', '>= 3.1.0')
-  spec.add_dependency('google-cloud-storage', '~> 1.16')
+  spec.add_dependency('google-cloud-storage')
   spec.add_dependency('tty-spinner', '>= 0.8.0', '< 1.0.0')
 
   spec.add_development_dependency('bundler')
